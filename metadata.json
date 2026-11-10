@@ -1,0 +1,8 @@
+{
+  "name": "खाटू श्याम जी सेवा एवं दान पोर्टल | Khatu Shyam Ji Seva",
+  "description": "पूज्य महाराज श्री मनुश्री जी के सानिध्य में खाटू श्याम जी राजस्थान में भूमिदान, मंदिर निर्माण, प्याऊ जल सेवा एवं श्रीमद्भागवत कथा पोथी सेवा।",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

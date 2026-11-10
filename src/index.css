@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Rozha One', 'Tiro Devanagari Hindi', serif;
+    --font-devanagari: 'Tiro Devanagari Hindi', serif;
+    --font-display: 'Cinzel', serif;
+    --font-body: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+  }
+}
+
+.font-heading {
+  font-family: 'Rozha One', 'Tiro Devanagari Hindi', serif;
+}
+
+.font-devanagari {
+  font-family: 'Tiro Devanagari Hindi', 'Rozha One', serif;
+}
+
+.font-display {
+  font-family: 'Cinzel', serif;
+}
+
+/* Custom devotional scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fdfaf3;
+}
+::-webkit-scrollbar-thumb {
+  background: #d97706;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b45309;
+}
